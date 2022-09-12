@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <!-- "Style" and "CSS" and synonyms ; CSS = Cascading Style Sheets -->
+  <Style>
+   /* whatever is inside the <style>  tags is in CSS code, not HTML, they are completely different languages. */
+    /* this is how to make comments */
+    
+    body{
+        margin:0px
+    }
+
+    li{
+        background: gray;
+        display:inline-block;
+        
+    }
+    li:hover{
+        background:red;
+        
+    }
+    
+    h1{
+        color: rgb(70, 15, 15);
+        background:lightcoral;
+        margin:0px;
+        padding: 50px;
+    }
+    .bestsellers { 
+        /*background:blue; */
+    }
+
+    .favorites {
+        /* text-decoration: underline ;  */
+
+
+    }
+
+    .menu{
+        background: #bd6e6e
+    }
+
+    .content{
+
+    }
+  </Style> 
+    </head>
+    <body>  
+        <!-- html is for CONTENT; not formatting nor making it pretty  -->
+        <!-- h is for header -->
+        <div class="menu">
+            <h1> My books webapge</h1>
+            <!-- ol is for ordered lists -->
+            <!-- ul is for a list w/o numbers, just bullet points -->
+            <ul>
+                <!-- li is for list item -->
+                <!-- you can add as many classes to the same tag as you want, just make sure to put space b/w them and surround the entire thing by quotation marks-->
+                <li class=favorites> Where the Red Fern Grows </li>
+                <li class="bestsellers favorites"> To Kill a Mockingbird </li>
+                <li class=bestsellers> Crime and Punishment </li>
+                <li> Harry Potter </li>
+            </ul>
+          </div>
+          <div class = content>
+         <p> This is a paragraph about books. </p>
+         <p>This is a paragraph about the best selling book <span class=bestsellers> To Kill a Mockingbird </span> </p>
+         </div>
+    </body>
+</html>
