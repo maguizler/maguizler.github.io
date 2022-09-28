@@ -15,4 +15,104 @@
     height: 200px;
     width: 200px;
   }
+  /* Index Style*/
+   /*I like palevioletred too*/
+    /* Colors that I like: rgb(255, 130, 172)  ;  */
+
+    h1{
+      color: rgb(70, 15, 15);
+      background:lightcoral;
+      margin:0px;
+      padding: 50px;
+      text-align:center;
+      text-decoration:wavy;
+      font-size:100px;
+  }
+  .steelblue {
+      color: steelblue
+  }
+  p{ 
+      background: rgb(255, 130, 172);
+      margin:0px;
+      padding:25px;
+      }
+
+      li:hover{
+      background: white
+  }
+  li{
+      background: lightpink;
+      display:inline-block;
+      width:15%;
+      margin:0px;
+      padding:0px;
+
   
+
+  
+  }
+  ul{
+       background: rgb(221, 107, 124);
+      margin:0px;
+      padding:25px;
+      }
+
+  .darkorange { 
+      color:darkorange 
+  }
+
+  .darkcyan { 
+      color:darkcyan
+  }
+  .darkmagenta {
+      color:darkmagenta
+  }
+  .teal{
+      color:teal
+  }
+  .purple{
+      color:purple
+  }
+  .mediumvioletred{
+      color:mediumvioletred
+  }
+  .cornflowerblue{
+      color:cornflowerblue
+  }
+  .deeppink{
+      color:deeppink
+  }
+  .rebeccapurple{
+      color:rebeccapurple
+  }
+  .violet{
+      color:violet
+  }
+
+
+  /* FIle2 Style*/
+
+#file2 h1{
+  color:rgb(240, 116, 8);
+  font-size: 50px;
+}
+
+
+#file2 p{
+  color:peru;
+  font-size:25px;
+
+}
+
+
+#file3 h1{
+  color:darkslateblue;
+  font-size: 50px;
+}
+
+.unicorn {
+width: 400px;
+height:300px
+}
+
+
