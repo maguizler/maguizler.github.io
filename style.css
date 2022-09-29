@@ -1,16 +1,19 @@
-.div-1 {
-    background-color:palevioletred;
-    height:50px;
-    width:50px;
+span{
+  font-weight: bold;
+}
+
+
+#file1 div{
+    background-color:lightpink;
   }
      
-  .div-2 {
-    background-color: cadetblue; 
-    height: 100px;
-    width: 100px;
+  #file1 .div-2 {
+    background-color: rgb(61, 62, 62); 
+    height: 2px;
+    width: 100%;
   }
      
-  .div-3 {
+  #file1 .div-3 {
     background-color: lightpink; 
     height: 200px;
     width: 200px;
@@ -19,7 +22,7 @@
    /*I like palevioletred too*/
     /* Colors that I like: rgb(255, 130, 172)  ;  */
 
-    h1{
+    #file1 h1{
       color: rgb(70, 15, 15);
       background:lightcoral;
       margin:0px;
@@ -31,7 +34,7 @@
   .steelblue {
       color: steelblue
   }
-  p{ 
+  #file1 p{ 
       background: rgb(255, 130, 172);
       margin:0px;
       padding:25px;
@@ -40,7 +43,7 @@
       li:hover{
       background: white
   }
-  li{
+  #file1 li{
       background: lightpink;
       display:inline-block;
       width:15%;
@@ -51,7 +54,7 @@
 
   
   }
-  ul{
+  #file1 ul{
        background: rgb(221, 107, 124);
       margin:0px;
       padding:25px;
@@ -104,10 +107,20 @@
 
 }
 
+#file2 div{
+  width:100%;
+  height:2px;
+  background-color: black;
+}
+
 
 #file3 h1{
   color:darkslateblue;
   font-size: 50px;
+}
+
+#file3 div{
+  background-color: beige;
 }
 
 .unicorn {
@@ -115,4 +128,7 @@ width: 400px;
 height:300px
 }
 
+a{
+  color: darkmagenta;
+}
 
