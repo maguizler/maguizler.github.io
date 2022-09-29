@@ -40,9 +40,10 @@ span{
       padding:25px;
       }
 
-      li:hover{
-      background: white
+  #file1 li:hover{
+      background-color: white;
   }
+
   #file1 li{
       background: lightpink;
       display:inline-block;
@@ -132,3 +133,9 @@ a{
   color: darkmagenta;
 }
 
+
+@media only screen and (max-width: 600px) {
+  body{ 
+    background-color: lightpink;
+  }
+}
